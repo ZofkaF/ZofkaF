@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="/images/icon.ico"/>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>Restrictions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style/country.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="data/gdp.js"></script>
+  <script src="data/heatmap.js"></script>
+  <script src="data/countries.js"></script>
+  <script src="scripts/dataloader.js"></script>
+  <script src="scripts/parameterhelper.js"></script>
+  <script src="country.js"></script>
+</head>
+
+<body>
+  <div id="google_translate_element"></div>
+    
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script id="translate" type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <div class="container">
+
+    <div class = "page-header">
+      <h2 id="countryname"></h2>
+      <hr>
+    </div>
+
+    <div id="countrydesc" class="alert">
+    </div>
+
+    <a href="./list.html">BACK</a>
+  </div>
+
+</body>
+</html>
